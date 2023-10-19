@@ -12,4 +12,14 @@ public class MainController {
 	public String home() {
 		return "admin/index";
 	}
+	
+	@GetMapping("/dev")
+	public String devExtreme() {
+		return "admin/devExtreme";
+	}
+	
+	@GetMapping("/grid")
+	public String gridExtreme() {
+		return "admin/datagrid";
+	}
 }
